@@ -9,7 +9,7 @@ To create a class named 'Student' with String variable 'name' and String variabl
 3.	Declare a String variable 'name' and initialize it with the value "John"
 4.	Declare a String variable 'address' and initialize it with the value "Chennai"
 5.	Define a class named 'Test'
-6.	Define the 'main' method within the 'Test' class
+6.	Define the 'main' method within the 'Test' classa
 7.	Create an object 'obj' of the 'Student' class
 8.	Print the value of 'name' and 'address' variables of the 'obj' object
 9.	End
@@ -20,22 +20,35 @@ To create a class named 'Student' with String variable 'name' and String variabl
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: MIDHUN S
+RegisterNumber: 212224230158
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```
+class Student
+{
+    String name;
+    String address;
+}
+public class Main
+{
+    public static void main(String[] args)
+   {
+        Student obj= new Student();        
+        obj.name="John";
+        obj.address="Chennai";
+        System.out.println(obj.name+" "+obj.address);
+    }
+}
+```
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/4eeffebe-7759-467e-bf87-ccd21a978cdf)
 
 ## RESULT:
+
 Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
